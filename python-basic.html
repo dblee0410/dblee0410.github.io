@@ -11,7 +11,7 @@
 
 
 
-    <title>Python 강좌(1) - Python 기본</title>
+    <title>Python basic 1</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -22,6 +22,14 @@
     <!-- custom.css -->
     <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- web font 추가 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
 
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -47,14 +55,28 @@
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="AI" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Python 강좌(1) - Python 기본" />
-    <meta property="og:description" content="Python 강좌는 여러 절로 구성되어 있습니다. 
+    <meta property="og:title" content="Python basic 1" />
+    <meta property="og:description" content="Python basic 
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
+    Python basic 1
+    Python basic 2
 
 
 이 글은 python basic 입니다.!
+
+import sys
+K = int(sys.stdin.readline())
+s = []
+
+for i in range(K):
+    n = int(sys.stdin.readline())
+    if n == 0 :
+        s.pop()
+    else:
+        s.append(n)
+print(sum(s))
+
+
 " />
     <meta property="og:url" content="https://dblee0410.github.io/python-basic" />
     <meta property="og:image" content="https://dblee0410.github.io/assets/built/images/mount.jpg" />
@@ -64,14 +86,28 @@
     <meta property="article:modified_time" content="2022-05-10T16:40:00+09:00" />
     <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Python 강좌(1) - Python 기본" />
-    <meta name="twitter:description" content="Python 강좌는 여러 절로 구성되어 있습니다. 
+    <meta name="twitter:title" content="Python basic 1" />
+    <meta name="twitter:description" content="Python basic 
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
+    Python basic 1
+    Python basic 2
 
 
 이 글은 python basic 입니다.!
+
+import sys
+K = int(sys.stdin.readline())
+s = []
+
+for i in range(K):
+    n = int(sys.stdin.readline())
+    if n == 0 :
+        s.pop()
+    else:
+        s.append(n)
+print(sum(s))
+
+
 " />
     <meta name="twitter:url" content="https://dblee0410.github.io/" />
     <meta name="twitter:image" content="https://dblee0410.github.io/assets/built/images/mount.jpg" />
@@ -104,13 +140,27 @@
         "@type": "WebPage",
         "@id": "https://dblee0410.github.io/python-basic"
     },
-    "description": "Python 강좌는 여러 절로 구성되어 있습니다. 
+    "description": "Python basic 
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
+    Python basic 1
+    Python basic 2
 
 
 이 글은 python basic 입니다.!
+
+import sys
+K = int(sys.stdin.readline())
+s = []
+
+for i in range(K):
+    n = int(sys.stdin.readline())
+    if n == 0 :
+        s.pop()
+    else:
+        s.append(n)
+print(sum(s))
+
+
 "
 }
     </script>
@@ -124,7 +174,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Python 강좌(1) - Python 기본" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Python basic 1" href="/feed.xml" />
 
 
 </head>
@@ -151,8 +201,8 @@ into the {body} of the default.hbs template -->
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
     <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
-    <li class="nav-machine learning" role="menuitem"><a href="/tag/machinelearning/">Machine learning</a></li>
-    <li class="nav-deep learning" role="menuitem"><a href="/tag/deeplearning/">deep learning</a></li>
+    <li class="nav-machine learning" role="menuitem"><a href="/tag/machine-learning/">Machine learning</a></li>
+    <li class="nav-deep learning" role="menuitem"><a href="/tag/deep-learning/">deep learning</a></li>
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
     </li>
@@ -170,7 +220,7 @@ into the {body} of the default.hbs template -->
             
         </div>
         
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+            <a class="subscribe-button" href="#subscribe">Search</a>
         
     </div>
 </nav>
@@ -198,7 +248,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Python 강좌(1) - Python 기본</h1>
+                <h1 class="post-full-title">Python basic 1</h1>
             </header>
 
             <!-- 
@@ -208,13 +258,27 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><span class="table-of-contents-list">Python 강좌는 여러 절로 구성되어 있습니다. </span></p>
+                    <p><span class="table-of-contents-list">Python basic </span></p>
 <ul class="table-of-contents-list">
-    <li><a href="./python-basic">Python 강좌(1) - Python 기본</a></li>
-    <li><a href="./python-basic2">Python 강좌(2) - Python 제어문</a></li>
+    <li><a href="./python-basic">Python basic 1</a></li>
+    <li><a href="./python-basic2">Python basic 2</a></li>
 </ul>
 
 <p>이 글은 python basic 입니다.!</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">K</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">stdin</span><span class="p">.</span><span class="n">readline</span><span class="p">())</span>
+<span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">K</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">stdin</span><span class="p">.</span><span class="n">readline</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+        <span class="n">s</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">s</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+
+</code></pre></div></div>
 
                 </div>
             </section>
@@ -226,16 +290,25 @@ into the {body} of the default.hbs template -->
                 <section class="subscribe-form">
                     <h3 class="subscribe-form-title">Subscribe to AI</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
                 </section>
               
             -->
@@ -274,7 +347,7 @@ into the {body} of the default.hbs template -->
                         var disqus_config = function () {
                             var this_page_url = 'https://dblee0410.github.io/python-basic';
                             var this_page_identifier = '/python-basic';
-                            var this_page_title = 'Python 강좌(1) - Python 기본';
+                            var this_page_title = 'Python basic 1';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -318,18 +391,18 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                
+                                  
                                     
                                         
                                         
-                                            <li><a href="/python-basic2">Python 강좌(2) - Python 제어문</a></li>
+                                            <li><a href="/python-basic2">Python basic 2</a></li>
                                         
                                     
                                   
                                 
                                   
                                     
-                                  
-                                
                                   
                                 
                                   
@@ -368,14 +441,14 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">Python 강좌(2) - Python 제어문</h2>
+                    <h2 class="post-card-title">Python basic 2</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Python 강좌는 여러 절로 구성되어 있습니다. 
+                        <p>Python basic 
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
+    Python basic 1
+    Python basic 2
 
 
 </p>
@@ -411,26 +484,26 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/machine-learning-basic">
+            <a class="post-card-image-link" href="/deep-learning-basic">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/mount.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/machine-learning-basic">
+            <a class="post-card-content-link" href="/deep-learning-basic">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Machinelearning</span>
+                                <span class="post-card-tags">Deep-learning</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">머신러닝 기본</h2>
+                    <h2 class="post-card-title">딥러닝 기본</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>이 글은 머신러닝 입니다.!
+                        <p>이 글은 딥러닝 입니다.!
 </p>
                     
                 </section>
@@ -471,13 +544,13 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Python 강좌(1) - Python 기본</div>
+    <div class="floating-header-title">Python basic 1</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+%EA%B0%95%EC%A2%8C%281%29+-+Python+%EA%B8%B0%EB%B3%B8&amp;url=https://dblee0410.github.io/python-basic"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+basic+1&amp;url=https://dblee0410.github.io/python-basic"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
@@ -528,18 +601,28 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to AI</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+                <h1 class="subscribe-overlay-title">Search AI</h1>
+                <p class="subscribe-overlay-description">
+                    lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
             </div>
         </div>
     

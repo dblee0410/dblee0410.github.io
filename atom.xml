@@ -8,12 +8,26 @@
     
       
       <item>
-        <title>Python 강좌(2) - Python 제어문</title>
+        <title>머신러닝 기본</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;이 글은 머신러닝 입니다.!&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 12 May 2022 16:40:00 +0900</pubDate>
+        <link>
+        https://dblee0410.github.io/machine-learning-basic</link>
+        <guid isPermaLink="true">https://dblee0410.github.io/machine-learning-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python basic 2</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python basic 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python basic 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -27,12 +41,12 @@
     
       
       <item>
-        <title>Python 강좌(1) - Python 기본</title>
+        <title>Python basic 1</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python basic 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python basic 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -46,26 +60,12 @@
     
       
       <item>
-        <title>머신러닝 기본</title>
-        
-          <description>&lt;p&gt;이 글은 머신러닝 입니다.!&lt;/p&gt;
-</description>
-        
-        <pubDate>Tue, 10 May 2022 16:40:00 +0900</pubDate>
-        <link>
-        https://dblee0410.github.io/machine-learning-basic</link>
-        <guid isPermaLink="true">https://dblee0410.github.io/machine-learning-basic</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>머신러닝 기본</title>
+        <title>딥러닝 기본</title>
         
           <description>&lt;p&gt;이 글은 딥러닝 입니다.!&lt;/p&gt;
 </description>
         
-        <pubDate>Tue, 10 May 2022 16:40:00 +0900</pubDate>
+        <pubDate>Mon, 09 May 2022 16:40:00 +0900</pubDate>
         <link>
         https://dblee0410.github.io/deep-learning-basic</link>
         <guid isPermaLink="true">https://dblee0410.github.io/deep-learning-basic</guid>

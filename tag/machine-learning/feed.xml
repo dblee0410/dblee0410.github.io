@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://dblee0410.github.io/tag/machinelearning/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://dblee0410.github.io/tag/machine-learning/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://dblee0410.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-13T04:20:16+09:00</updated>
-  <id>https://dblee0410.github.io/tag/machinelearning/feed.xml</id>
+  <updated>2022-05-13T19:52:17+09:00</updated>
+  <id>https://dblee0410.github.io/tag/machine-learning/feed.xml</id>
 
   
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">머신러닝 기본</title>
       <link href="https://dblee0410.github.io/machine-learning-basic" rel="alternate" type="text/html" title="머신러닝 기본" />
-      <published>2022-05-10T16:40:00+09:00</published>
-      <updated>2022-05-10T16:40:00+09:00</updated>
+      <published>2022-05-12T16:40:00+09:00</published>
+      <updated>2022-05-12T16:40:00+09:00</updated>
       <id>https://dblee0410.github.io/machine%20learning-basic</id>
       <content type="html" xml:base="https://dblee0410.github.io/machine-learning-basic">&lt;p&gt;이 글은 머신러닝 입니다.!&lt;/p&gt;</content>
 
@@ -54,7 +54,7 @@
       
 
       
-        <category term="machinelearning" />
+        <category term="machine-learning" />
       
 
       

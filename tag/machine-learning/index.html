@@ -11,7 +11,7 @@
 
 
 
-    <title>Machinelearning - AI</title>
+    <title>Machine Learning - AI</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -22,6 +22,14 @@
     <!-- custom.css -->
     <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- web font 추가 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
 
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -41,19 +49,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="AI기반 블로그" />
     <link rel="shortcut icon" href="https://dblee0410.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://dblee0410.github.io/tag/machinelearning/" />
+    <link rel="canonical" href="https://dblee0410.github.io/tag/machine-learning/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="AI" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Machinelearning - AI" />
+    <meta property="og:title" content="Machine Learning - AI" />
     <meta property="og:description" content="AI기반 블로그" />
-    <meta property="og:url" content="https://dblee0410.github.io/tag/machinelearning/" />
+    <meta property="og:url" content="https://dblee0410.github.io/tag/machine-learning/" />
     <meta property="og:image" content="https://dblee0410.github.io/assets/built/images/sky.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Machinelearning - AI" />
+    <meta name="twitter:title" content="Machine Learning - AI" />
     <meta name="twitter:description" content="AI기반 블로그" />
     <meta name="twitter:url" content="https://dblee0410.github.io/" />
     <meta name="twitter:image" content="https://dblee0410.github.io/assets/built/images/sky.jpg" />
@@ -73,7 +81,7 @@
         "name": "AI",
         "logo": "https://dblee0410.github.io/"
     },
-    "url": "https://dblee0410.github.io/tag/machinelearning/",
+    "url": "https://dblee0410.github.io/tag/machine-learning/",
     "image": {
         "@type": "ImageObject",
         "url": "https://dblee0410.github.io/assets/built/images/sky.jpg",
@@ -82,7 +90,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://dblee0410.github.io/tag/machinelearning/"
+        "@id": "https://dblee0410.github.io/tag/machine-learning/"
     },
     "description": "AI기반 블로그"
 }
@@ -128,8 +136,8 @@
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
     <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
-    <li class="nav-machine learning" role="menuitem"><a href="/tag/machinelearning/">Machine learning</a></li>
-    <li class="nav-deep learning" role="menuitem"><a href="/tag/deeplearning/">deep learning</a></li>
+    <li class="nav-machine learning" role="menuitem"><a href="/tag/machine-learning/">Machine learning</a></li>
+    <li class="nav-deep learning" role="menuitem"><a href="/tag/deep-learning/">deep learning</a></li>
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
     </li>
@@ -147,13 +155,13 @@
             
         </div>
         
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+            <a class="subscribe-button" href="#subscribe">Search</a>
         
     </div>
 </nav>
 
         <div class="site-header-content">
-            <h1 class="site-title">Machinelearning</h1>
+            <h1 class="site-title">Machine-learning</h1>
             <h2 class="site-description">
                 
                     machine learning study
@@ -184,7 +192,7 @@
                     
                         
                             
-                                <span class="post-card-tags">Machinelearning</span>
+                                <span class="post-card-tags">Machine-learning</span>
                             
                         
                     
@@ -252,18 +260,28 @@
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to AI</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+                <h1 class="subscribe-overlay-title">Search AI</h1>
+                <p class="subscribe-overlay-description">
+                    lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
             </div>
         </div>
     
