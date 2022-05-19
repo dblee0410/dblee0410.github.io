@@ -56,59 +56,17 @@
     <meta property="og:site_name" content="AI" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Python basic 1" />
-    <meta property="og:description" content="Python basic 
-
-    Python basic 1
-    Python basic 2
-
-
-이 글은 python basic 입니다.!
-
-import sys
-K = int(sys.stdin.readline())
-s = []
-
-for i in range(K):
-    n = int(sys.stdin.readline())
-    if n == 0 :
-        s.pop()
-    else:
-        s.append(n)
-print(sum(s))
-
-
-" />
+    <meta property="og:description" content="여러가지 기본 연산 1. 사칙연산    파이썬에서 사칙 연산은 더하기(+), 빼기(-), 곱하기(*), 나누기(/) 기호를 이용합니다. 1) 덧셈 &gt;&gt;&gt; 1 + 3 4 2) 뺄셈 &gt;&gt;&gt; 7 - 4 3 3) 곱셈 &gt;&gt;&gt; 4 * 6 24 4) 나눗셈 &gt;&gt;&gt; 5 / 2 2.5 2. 거듭제곱, 몫, 나머지    파이썬에서 거듭제곱은 (**), 나눗셈의" />
     <meta property="og:url" content="https://dblee0410.github.io/python-basic" />
     <meta property="og:image" content="https://dblee0410.github.io/assets/built/images/mount.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-05-10T16:40:00+09:00" />
-    <meta property="article:modified_time" content="2022-05-10T16:40:00+09:00" />
+    <meta property="article:published_time" content="2022-05-13T18:00:00+09:00" />
+    <meta property="article:modified_time" content="2022-05-13T18:00:00+09:00" />
     <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Python basic 1" />
-    <meta name="twitter:description" content="Python basic 
-
-    Python basic 1
-    Python basic 2
-
-
-이 글은 python basic 입니다.!
-
-import sys
-K = int(sys.stdin.readline())
-s = []
-
-for i in range(K):
-    n = int(sys.stdin.readline())
-    if n == 0 :
-        s.pop()
-    else:
-        s.append(n)
-print(sum(s))
-
-
-" />
+    <meta name="twitter:description" content="여러가지 기본 연산 1. 사칙연산    파이썬에서 사칙 연산은 더하기(+), 빼기(-), 곱하기(*), 나누기(/) 기호를 이용합니다. 1) 덧셈 &gt;&gt;&gt; 1 + 3 4 2) 뺄셈 &gt;&gt;&gt; 7 - 4 3 3) 곱셈 &gt;&gt;&gt; 4 * 6 24 4) 나눗셈 &gt;&gt;&gt; 5 / 2 2.5 2. 거듭제곱, 몫, 나머지    파이썬에서 거듭제곱은 (**), 나눗셈의" />
     <meta name="twitter:url" content="https://dblee0410.github.io/" />
     <meta name="twitter:image" content="https://dblee0410.github.io/assets/built/images/mount.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -140,28 +98,7 @@ print(sum(s))
         "@type": "WebPage",
         "@id": "https://dblee0410.github.io/python-basic"
     },
-    "description": "Python basic 
-
-    Python basic 1
-    Python basic 2
-
-
-이 글은 python basic 입니다.!
-
-import sys
-K = int(sys.stdin.readline())
-s = []
-
-for i in range(K):
-    n = int(sys.stdin.readline())
-    if n == 0 :
-        s.pop()
-    else:
-        s.append(n)
-print(sum(s))
-
-
-"
+    "description": "여러가지 기본 연산 1. 사칙연산    파이썬에서 사칙 연산은 더하기(+), 빼기(-), 곱하기(*), 나누기(/) 기호를 이용합니다. 1) 덧셈 &gt;&gt;&gt; 1 + 3 4 2) 뺄셈 &gt;&gt;&gt; 7 - 4 3 3) 곱셈 &gt;&gt;&gt; 4 * 6 24 4) 나눗셈 &gt;&gt;&gt; 5 / 2 2.5 2. 거듭제곱, 몫, 나머지    파이썬에서 거듭제곱은 (**), 나눗셈의"
 }
     </script>
 
@@ -238,7 +175,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="10 May 2022">10 May 2022</time>
+                    <time class="post-full-meta-date" datetime="13 May 2022">13 May 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -258,27 +195,287 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><span class="table-of-contents-list">Python basic </span></p>
+                    <p><span style="font-size:80%"><center>여러가지 기본 연산</center></span>
+<br /></p>
+
+<h2 id="1-사칙연산">1. 사칙연산</h2>
+<p><br />
+<span style="font-size:80%">   파이썬에서 사칙 연산은 더하기(+), 빼기(-), 곱하기(*), 나누기(/) 기호를 이용합니다.</span></p>
+
+<p>1) 덧셈</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="mi">4</span>
+</code></pre></div></div>
+
+<p>2) 뺄셈</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">7</span> <span class="o">-</span> <span class="mi">4</span>
+<span class="mi">3</span> 
+</code></pre></div></div>
+
+<p>3) 곱셈</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">4</span> <span class="o">*</span> <span class="mi">6</span>
+<span class="mi">24</span>
+</code></pre></div></div>
+
+<p>4) 나눗셈</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="mf">2.5</span>
+</code></pre></div></div>
+
+<h2 id="2-거듭제곱-몫-나머지">2. 거듭제곱, 몫, 나머지</h2>
+<p><br />
+<span style="font-size:80%">   파이썬에서 거듭제곱은 (**), 나눗셈의 몫은(//), 나머지는(%) 기호를 이용합니다.</span></p>
+
+<p>1) 거듭제곱</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">3</span><span class="o">**</span><span class="mi">4</span>
+<span class="mi">36</span>
+</code></pre></div></div>
+
+<p>2) 나눗셈 몫</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">13</span> <span class="o">//</span> <span class="mi">4</span>
+<span class="mi">3</span>
+<span class="c1"># 13 = 4 * 3 + 1 
+</span></code></pre></div></div>
+
+<p>3) 나눗셈 나머지</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">13</span> <span class="o">//</span> <span class="mi">4</span>
+<span class="mi">1</span>
+<span class="c1"># 13 = 4 * 3 + 1 
+</span></code></pre></div></div>
+
+<p>4) 과학적 표기법 <br />
+<span style="font-size:80%">    과학적 표기법이란? 너무 크거나 너무 작은 숫자들을 10진법으로 편하게 작성하는 표현 방법이다.</span></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># a * 10^n = aEn = aen
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mf">4e6</span>
+<span class="mf">4000000.0</span>
+
+<span class="o">&gt;&gt;&gt;</span><span class="mf">3e-2</span>
+<span class="mf">0.03</span>
+</code></pre></div></div>
+
+<h2 id="3-진수">3. 진수</h2>
+<p><br />
+<span style="font-size:80%">n진수란? n진법으로 표현된 숫자를 n진수라고 합니다.</span></p>
+
+<p>1) 10진수 -&gt; 2, 8, 16진수 변환<br />
+<span style="font-size:80%">    파이썬은 기본적으로 10진수를 2, 8, 16진수로 변환하는 함수가 있습니다.</span></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 10진수 -&gt; 2진수 : bin
+</span><span class="o">&gt;&gt;&gt;</span> <span class="nb">bin</span><span class="p">(</span><span class="mi">17</span><span class="p">)</span>
+<span class="s">'0b10001'</span>
+
+<span class="c1"># 10진수 -&gt; 8진수 : oct
+</span><span class="o">&gt;&gt;&gt;</span> <span class="nb">oct</span><span class="p">(</span><span class="mi">17</span><span class="p">)</span>
+<span class="s">'0o21'</span>
+
+<span class="c1"># 10진수 -&gt; 16진수 : hex
+</span><span class="o">&gt;&gt;&gt;</span> <span class="nb">hex</span><span class="p">(</span><span class="mi">17</span><span class="p">)</span>
+<span class="s">'0x11'</span>
+</code></pre></div></div>
+
+<p>2) 2, 8, 16진수 -&gt; 10진수 변환<br />
+<span style="font-size:80%">    2, 8, 16진수 앞에 각각 0b, 0o, 0x를 붙이면 됩니다.</span></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 2진수 -&gt; 10진수
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mb">0b10001</span>
+<span class="mi">17</span>
+
+<span class="c1"># 8진수 -&gt; 10진수
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mo">0o21</span>
+<span class="mi">17</span>
+
+<span class="c1"># 16진수 -&gt; 10진수
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mh">0x11</span>
+<span class="mi">17</span>
+</code></pre></div></div>
+
+<p>3) n진수 -&gt; 10진수 변환</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># int('변환하려는 수', 진법)
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s">'201'</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
+<span class="mi">19</span>
+</code></pre></div></div>
+
+<h2 id="4-논리연산-비트연산-비교연산">4. 논리연산 비트연산 비교연산</h2>
+<p><br /></p>
+
+<p>1) 논리연산<br />
+<span style="font-size:80%">    논리 연산이란? boolean 연산으로 참, 거짓 두 가지 원소만 존재하는 집합에서의 연산이다.</span><br />
+<span style="font-size:80%">    논리 연산자에는 논리곱(and), 논리합(or) 논리 부정(not) 등이 있습니다.</span></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># A and B (논리곱) : A 와 B 모두 참일 때 참, 나머지는 거짓
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">and</span> <span class="bp">False</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span>
+<span class="bp">False</span>
+
+<span class="c1"># A or B (논리합) : A 와 B 중 하나라도 참이면 참, 둘 다 거짓일 때 거짓
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span>
+<span class="bp">True</span>
+
+<span class="c1"># not A (논리 부정) : A가 참이면 거짓, 거짓이면 참
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="ow">not</span> <span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">A</th>
+      <th style="text-align: center">B</th>
+      <th style="text-align: center">A and B</th>
+      <th style="text-align: center">A or B</th>
+      <th style="text-align: center">not A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">False</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">False</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>2) 비트연산<br />
+<span style="font-size:80%">2진수에 대해 비트 단위로 적용되는 연산 </span><br />
+<span style="font-size:80%">비트 연산자에는 비트 AND 연산(&amp;), 비트 OR 연산(|), 비트 XOR 연산(^), 비트 NOT 연산(~), shift 연산(«, »)이 있습니다.</span><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 비트 AND 연산(&amp;)
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mi">20</span> <span class="o">&amp;</span> <span class="mi">17</span>     <span class="c1"># 20 = 0b10100, 17 = 0b10001
+</span><span class="mi">16</span>              <span class="c1"># 0b10100 &amp; 0b10001 = 0b10000 = 16
+</span>
+<span class="c1"># 비트 OR 연산
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mi">20</span> <span class="o">|</span> <span class="mi">17</span>     <span class="c1"># 20 = 0b10100, 17 = 0b10001
+</span><span class="mi">21</span>              <span class="c1"># 0b10100 | 0b10001 = 0b10101 = 21
+</span>
+<span class="c1"># 비트 XOR 연산
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mi">20</span> <span class="o">^</span> <span class="mi">17</span>     <span class="c1"># 20 = 0b10100, 17 = 0b10001
+</span><span class="mi">5</span>               <span class="c1"># 0b10100 ^ 0b10001 = 0b00101 = 5
+</span>
+<span class="c1"># 비트 NOT 연산
+</span><span class="o">&gt;&gt;&gt;</span> <span class="o">~</span> <span class="mi">20</span>        <span class="c1"># 20 = 0b10100
+</span><span class="o">-</span><span class="mi">21</span>             <span class="c1"># ~21 -&gt; 101011 -&gt;(1의 보수) 10100 -&gt; 10101 (부호 -)     
+</span>
+<span class="c1"># left shift 연산
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mi">20</span> <span class="o">&lt;&lt;</span> <span class="mi">2</span>     <span class="c1"># 20 = 0b0010100       
+</span><span class="mi">80</span>              <span class="c1"># 0b1010000 = 80
+</span>
+<span class="c1"># right shift 연산
+</span><span class="o">&gt;&gt;&gt;</span> <span class="mi">20</span> <span class="o">&gt;&gt;</span> <span class="mi">2</span>     <span class="c1"># 20 = 0b10100       
+</span><span class="mi">5</span>               <span class="c1"># 0b00101 = 5
+</span></code></pre></div></div>
+
+<p>3) 비교연산<br />
+<span style="font-size:80%">    피연산자 사아의 상대적인 크기를 판단하여 True or False를 반환한다.</span></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="c1"># ==
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">==</span> <span class="n">b</span>
+<span class="bp">False</span>
+
+<span class="c1"># !=
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">!=</span> <span class="n">b</span>
+<span class="bp">True</span>
+
+<span class="c1"># &gt;
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span>
+<span class="bp">True</span>
+
+<span class="c1"># &lt;
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span>
+<span class="bp">False</span>
+
+<span class="c1"># &gt;=
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="n">b</span>
+<span class="bp">True</span>
+
+<span class="c1"># &lt;=
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">&lt;=</span> <span class="n">b</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">비교 연산자</th>
+      <th style="text-align: center">문법</th>
+      <th style="text-align: center">설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">==</td>
+      <td style="text-align: center">a == b</td>
+      <td style="text-align: center">a는 b와 같다</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">!=</td>
+      <td style="text-align: center">a != b</td>
+      <td style="text-align: center">a는 b와 같지 않다</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">&gt;</td>
+      <td style="text-align: center">a &gt; b</td>
+      <td style="text-align: center">a는 b보다 크다</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">&lt;</td>
+      <td style="text-align: center">a &lt; b</td>
+      <td style="text-align: center">a는 b보다 작다</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">&gt;=</td>
+      <td style="text-align: center">a &gt;= b</td>
+      <td style="text-align: center">a는 b보다 크거나 같다</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">&lt;=</td>
+      <td style="text-align: center">a &lt;= b</td>
+      <td style="text-align: center">a는 b보다 작거나 같다</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><span class="table-of-contents-list">Python basic </span></p>
 <ul class="table-of-contents-list">
     <li><a href="./python-basic">Python basic 1</a></li>
     <li><a href="./python-basic2">Python basic 2</a></li>
 </ul>
 
-<p>이 글은 python basic 입니다.!</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
-<span class="n">K</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">stdin</span><span class="p">.</span><span class="n">readline</span><span class="p">())</span>
-<span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">K</span><span class="p">):</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">stdin</span><span class="p">.</span><span class="n">readline</span><span class="p">())</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
-        <span class="n">s</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">s</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
-
-</code></pre></div></div>
 
                 </div>
             </section>
@@ -391,6 +588,10 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                    
+                                  
+                                
+                                  
                                 
                                   
                                     
@@ -398,10 +599,6 @@ into the {body} of the default.hbs template -->
                                         
                                             <li><a href="/python-basic2">Python basic 2</a></li>
                                         
-                                    
-                                  
-                                
-                                  
                                     
                                   
                                 
@@ -422,61 +619,6 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/python-basic2">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/mount.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic2">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python basic 2</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python basic 
-
-    Python basic 1
-    Python basic 2
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="dblee0410" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/dblee0410/">dblee0410</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -484,26 +626,26 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/deep-learning-basic">
+            <a class="post-card-image-link" href="/machine-learning-basic">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/mount.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/deep-learning-basic">
+            <a class="post-card-content-link" href="/machine-learning-basic">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Deep-learning</span>
+                                <span class="post-card-tags">Machine-learning</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">딥러닝 기본</h2>
+                    <h2 class="post-card-title">머신러닝 기본</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>이 글은 딥러닝 입니다.!
+                        <p>이 글은 머신러닝 입니다.!
 </p>
                     
                 </section>

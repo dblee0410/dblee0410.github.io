@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>Python basic 1</title>
+        
+          <description>&lt;p&gt;&lt;span style=&quot;font-size:80%&quot;&gt;&lt;center&gt;여러가지 기본 연산&lt;/center&gt;&lt;/span&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 May 2022 18:00:00 +0900</pubDate>
+        <link>
+        https://dblee0410.github.io/python-basic</link>
+        <guid isPermaLink="true">https://dblee0410.github.io/python-basic</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>머신러닝 기본</title>
         
           <description>&lt;p&gt;이 글은 머신러닝 입니다.!&lt;/p&gt;
@@ -24,11 +40,8 @@
       <item>
         <title>Python basic 2</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python basic 1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python basic 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+          <description>&lt;p&gt;&lt;span style=&quot;font-size:80%&quot;&gt; &lt;center&gt;변수와 자료형&lt;/center&gt; &lt;/span&gt;
+&lt;br /&gt;&lt;/p&gt;
 
 </description>
         
@@ -36,25 +49,6 @@
         <link>
         https://dblee0410.github.io/python-basic2</link>
         <guid isPermaLink="true">https://dblee0410.github.io/python-basic2</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Python basic 1</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python basic 1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python basic 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Tue, 10 May 2022 16:40:00 +0900</pubDate>
-        <link>
-        https://dblee0410.github.io/python-basic</link>
-        <guid isPermaLink="true">https://dblee0410.github.io/python-basic</guid>
       </item>
       
     

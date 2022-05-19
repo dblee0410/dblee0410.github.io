@@ -1,27 +1,363 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://dblee0410.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dblee0410.github.io/" rel="alternate" type="text/html" /><updated>2022-05-13T22:01:32+09:00</updated><id>https://dblee0410.github.io/feed.xml</id><title type="html">AI</title><subtitle>AI기반 블로그</subtitle><entry><title type="html">머신러닝 기본</title><link href="https://dblee0410.github.io/machine-learning-basic" rel="alternate" type="text/html" title="머신러닝 기본" /><published>2022-05-12T16:40:00+09:00</published><updated>2022-05-12T16:40:00+09:00</updated><id>https://dblee0410.github.io/machine%20learning-basic</id><content type="html" xml:base="https://dblee0410.github.io/machine-learning-basic">&lt;p&gt;이 글은 머신러닝 입니다.!&lt;/p&gt;</content><author><name>dblee0410</name></author><category term="machine-learning" /><summary type="html">이 글은 머신러닝 입니다.!</summary></entry><entry><title type="html">Python basic 2</title><link href="https://dblee0410.github.io/python-basic2" rel="alternate" type="text/html" title="Python basic 2" /><published>2022-05-11T16:40:00+09:00</published><updated>2022-05-11T16:40:00+09:00</updated><id>https://dblee0410.github.io/python-basic2</id><content type="html" xml:base="https://dblee0410.github.io/python-basic2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://dblee0410.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dblee0410.github.io/" rel="alternate" type="text/html" /><updated>2022-05-19T22:37:48+09:00</updated><id>https://dblee0410.github.io/feed.xml</id><title type="html">AI</title><subtitle>AI기반 블로그</subtitle><entry><title type="html">Python basic 1</title><link href="https://dblee0410.github.io/python-basic" rel="alternate" type="text/html" title="Python basic 1" /><published>2022-05-13T18:00:00+09:00</published><updated>2022-05-13T18:00:00+09:00</updated><id>https://dblee0410.github.io/python-basic</id><content type="html" xml:base="https://dblee0410.github.io/python-basic">&lt;p&gt;&lt;span style=&quot;font-size:80%&quot;&gt;&lt;center&gt;여러가지 기본 연산&lt;/center&gt;&lt;/span&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-사칙연산&quot;&gt;1. 사칙연산&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   파이썬에서 사칙 연산은 더하기(+), 빼기(-), 곱하기(*), 나누기(/) 기호를 이용합니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;1) 덧셈&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2) 뺄셈&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3) 곱셈&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;4) 나눗셈&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2-거듭제곱-몫-나머지&quot;&gt;2. 거듭제곱, 몫, 나머지&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   파이썬에서 거듭제곱은 (**), 나눗셈의 몫은(//), 나머지는(%) 기호를 이용합니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;1) 거듭제곱&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;36&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2) 나눗셈 몫&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 13 = 4 * 3 + 1 
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3) 나눗셈 나머지&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 13 = 4 * 3 + 1 
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;4) 과학적 표기법 &lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;    과학적 표기법이란? 너무 크거나 너무 작은 숫자들을 10진법으로 편하게 작성하는 표현 방법이다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# a * 10^n = aEn = aen
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4e6&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;4000000.0&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3e-2&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;0.03&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;3-진수&quot;&gt;3. 진수&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;n진수란? n진법으로 표현된 숫자를 n진수라고 합니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;1) 10진수 -&amp;gt; 2, 8, 16진수 변환&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;    파이썬은 기본적으로 10진수를 2, 8, 16진수로 변환하는 함수가 있습니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 10진수 -&amp;gt; 2진수 : bin
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&apos;0b10001&apos;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 10진수 -&amp;gt; 8진수 : oct
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;oct&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&apos;0o21&apos;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 10진수 -&amp;gt; 16진수 : hex
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&apos;0x11&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2) 2, 8, 16진수 -&amp;gt; 10진수 변환&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;    2, 8, 16진수 앞에 각각 0b, 0o, 0x를 붙이면 됩니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 2진수 -&amp;gt; 10진수
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mb&quot;&gt;0b10001&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 8진수 -&amp;gt; 10진수
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0o21&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 16진수 -&amp;gt; 10진수
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x11&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3) n진수 -&amp;gt; 10진수 변환&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# int(&apos;변환하려는 수&apos;, 진법)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;201&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;4-논리연산-비트연산-비교연산&quot;&gt;4. 논리연산 비트연산 비교연산&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1) 논리연산&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;    논리 연산이란? boolean 연산으로 참, 거짓 두 가지 원소만 존재하는 집합에서의 연산이다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;    논리 연산자에는 논리곱(and), 논리합(or) 논리 부정(not) 등이 있습니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# A and B (논리곱) : A 와 B 모두 참일 때 참, 나머지는 거짓
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# A or B (논리합) : A 와 B 중 하나라도 참이면 참, 둘 다 거짓일 때 거짓
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# not A (논리 부정) : A가 참이면 거짓, 거짓이면 참
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;A&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;B&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;A and B&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;A or B&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;not A&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;True&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;False&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;2) 비트연산&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;2진수에 대해 비트 단위로 적용되는 연산 &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;비트 연산자에는 비트 AND 연산(&amp;amp;), 비트 OR 연산(|), 비트 XOR 연산(^), 비트 NOT 연산(~), shift 연산(«, »)이 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 비트 AND 연산(&amp;amp;)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# 20 = 0b10100, 17 = 0b10001
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;# 0b10100 &amp;amp; 0b10001 = 0b10000 = 16
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 비트 OR 연산
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# 20 = 0b10100, 17 = 0b10001
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;# 0b10100 | 0b10001 = 0b10101 = 21
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 비트 XOR 연산
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# 20 = 0b10100, 17 = 0b10001
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;               &lt;span class=&quot;c1&quot;&gt;# 0b10100 ^ 0b10001 = 0b00101 = 5
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 비트 NOT 연산
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# 20 = 0b10100
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;             &lt;span class=&quot;c1&quot;&gt;# ~21 -&amp;gt; 101011 -&amp;gt;(1의 보수) 10100 -&amp;gt; 10101 (부호 -)     
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# left shift 연산
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# 20 = 0b0010100       
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;# 0b1010000 = 80
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# right shift 연산
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# 20 = 0b10100       
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;               &lt;span class=&quot;c1&quot;&gt;# 0b00101 = 5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3) 비교연산&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;    피연산자 사아의 상대적인 크기를 판단하여 True or False를 반환한다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# ==
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# !=
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# &amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# &amp;lt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# &amp;gt;=
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# &amp;lt;=
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;비교 연산자&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;문법&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;==&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a == b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a는 b와 같다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;!=&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a != b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a는 b와 같지 않다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a &amp;gt; b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a는 b보다 크다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a &amp;lt; b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a는 b보다 작다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;gt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a &amp;gt;= b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a는 b보다 크거나 같다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a &amp;lt;= b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a는 b보다 작거나 같다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python basic 1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python basic 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ul&gt;</content><author><name>dblee0410</name></author><category term="python" /><summary type="html">여러가지 기본 연산</summary></entry><entry><title type="html">머신러닝 기본</title><link href="https://dblee0410.github.io/machine-learning-basic" rel="alternate" type="text/html" title="머신러닝 기본" /><published>2022-05-12T16:40:00+09:00</published><updated>2022-05-12T16:40:00+09:00</updated><id>https://dblee0410.github.io/machine%20learning-basic</id><content type="html" xml:base="https://dblee0410.github.io/machine-learning-basic">&lt;p&gt;이 글은 머신러닝 입니다.!&lt;/p&gt;</content><author><name>dblee0410</name></author><category term="machine-learning" /><summary type="html">이 글은 머신러닝 입니다.!</summary></entry><entry><title type="html">Python basic 2</title><link href="https://dblee0410.github.io/python-basic2" rel="alternate" type="text/html" title="Python basic 2" /><published>2022-05-11T16:40:00+09:00</published><updated>2022-05-11T16:40:00+09:00</updated><id>https://dblee0410.github.io/python-basic2</id><content type="html" xml:base="https://dblee0410.github.io/python-basic2">&lt;p&gt;&lt;span style=&quot;font-size:80%&quot;&gt; &lt;center&gt;변수와 자료형&lt;/center&gt; &lt;/span&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;이 글은 python basic 입니다.!&lt;/p&gt;</content><author><name>dblee0410</name></author><category term="python" /><summary type="html">Python basic Python basic 1 Python basic 2</summary></entry><entry><title type="html">Python basic 1</title><link href="https://dblee0410.github.io/python-basic" rel="alternate" type="text/html" title="Python basic 1" /><published>2022-05-10T16:40:00+09:00</published><updated>2022-05-10T16:40:00+09:00</updated><id>https://dblee0410.github.io/python-basic</id><content type="html" xml:base="https://dblee0410.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-변수&quot;&gt;1. 변수&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   변수란 데이터를 넣을 수 있는 상자이다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;1) 변수에 데이터 할당&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# a라는 변수에 데이터(123) 할당
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 변수명 a로 출력 가능
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2) 변수명 규칙&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 변수명은 문자, 숫자, 밑줄 기호(_)를 이용해 만듭니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 변수명은 숫자로 시작할 수 없습니다. &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 대소문자를 구분합니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 공백을 포함할 수 없습니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 밑줄 이외의 기호는 변수에 이용할 수 없습니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 예약어와 내장함수는 변수명으로 이용할 수 없습니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-자료형&quot;&gt;2. 자료형&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 파이썬의 자료형은 크게 숫자, 시퀀스, 매핑, 불, 세트가 있습니다. &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:80%&quot;&gt;   ● 자료형을 확인할 수 있는 함수는 type()입니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;1) 숫자&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 정수(int)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+
+# 부동소수점수(float)
+&amp;gt;&amp;gt;&amp;gt; type(0.1)
+&amp;lt;class &apos;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+
+# 복소수(complex)
+&amp;gt;&amp;gt;&amp;gt; type(3+2j)
+&amp;lt;class &apos;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;complex&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2) 시퀀스&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 문자열(str)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;book&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+
+# 리스트(list)
+&amp;gt;&amp;gt;&amp;gt; type([&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;, &apos;&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;, &apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;])
+&amp;lt;class &apos;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+
+# 튜플(tuple)
+&amp;gt;&amp;gt;&amp;gt; type((1, &quot;korea&quot;, 2.1, 3+1j))
+&amp;lt;class &apos;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;tuple&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3) 매핑&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 딕셔너리(dict)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;b&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;c&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;4) 불&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 불(bool)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;5) 세트&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 세트(set)
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;country&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Korea&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Japan&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;China&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python basic &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python basic 1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python basic 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이 글은 python basic 입니다.!&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;K&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>dblee0410</name></author><category term="python" /><summary type="html">Python basic Python basic 1 Python basic 2</summary></entry><entry><title type="html">딥러닝 기본</title><link href="https://dblee0410.github.io/deep-learning-basic" rel="alternate" type="text/html" title="딥러닝 기본" /><published>2022-05-09T16:40:00+09:00</published><updated>2022-05-09T16:40:00+09:00</updated><id>https://dblee0410.github.io/deep%20learning-basic</id><content type="html" xml:base="https://dblee0410.github.io/deep-learning-basic">&lt;p&gt;이 글은 딥러닝 입니다.!&lt;/p&gt;</content><author><name>dblee0410</name></author><category term="deep-learning" /><summary type="html">이 글은 딥러닝 입니다.!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>dblee0410</name></author><category term="python" /><summary type="html">변수와 자료형</summary></entry><entry><title type="html">딥러닝 기본</title><link href="https://dblee0410.github.io/deep-learning-basic" rel="alternate" type="text/html" title="딥러닝 기본" /><published>2022-05-09T16:40:00+09:00</published><updated>2022-05-09T16:40:00+09:00</updated><id>https://dblee0410.github.io/deep%20learning-basic</id><content type="html" xml:base="https://dblee0410.github.io/deep-learning-basic">&lt;p&gt;이 글은 딥러닝 입니다.!&lt;/p&gt;</content><author><name>dblee0410</name></author><category term="deep-learning" /><summary type="html">이 글은 딥러닝 입니다.!</summary></entry></feed>
